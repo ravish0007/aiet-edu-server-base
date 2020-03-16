@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Página de prueba del servidor Apache HTTP funcionando con CentOS</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="shortcut icon" href="http://www.centos.org/favicon.ico"/>
+    <link rel="stylesheet" media="all" href="noindex/common/css/bootstrap.min.css"/>
+    <link rel="stylesheet" media="all" href="noindex/common/css/styles.css"/>
+  </head>
+  <body>
+    <header class="container">
+      <section class="row">
+        <div class="header-graphic v3-banner platform-banner centos-banner" role="banner">
+          <div class="graphic-inner">
+            <div class="graphic-inner2">
+              <div class="banner-title"><span>Servidor Apache HTTP</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container">
+      <h1>Página de Prueba</h1>
+      <p class="lead">Esta página se usa para probar el correcto funcionamiento del <a href="http://apache.org">servidor Apache HTTP</a> una vez que ha sido instalado. Si puedes leer esta página quiere decir que este sitio está funcionando correctamente. Este servidor funciona con <a href="http://centos.org">CentOS</a>.</p>
+      <hr/>
+      <section class="row">
+        <div class="col-md-6">
+          <h2>¿Solo estás visitando?</h2>
+			  	<p class="lead">El sitio web que está visitando está presentando problemas o está realizando rutinas de mantenimiento.</p>
+          <p>Si desea comunicar al administrador de este sitio que está viendo esta página en lugar de la página esperada, envíele un correo electróncio. Por lo general, los correos enviados al nombre "webmaster" y dirigidos al dominio del sitio web deberían llegarle a la persona correcta.</p>
+          <p>Por ejemplo, si experimentaste problemas mientras visitabas www.example.com, deberías enviar un correo electrónico a "webmaster@example.com".</p>
+        <h2>Nota importante:</h2>
+        <p class="lead">El Proyecto CentOS no tiene nada que ver con este sitio web o su contenido, él solo suministra el software que hace posible el funcionamiento del sitio web.</p>
+        <p>Si tienes problemas con el contenido de este sitio, contacta al dueño del dominio, no al Proyecto CentOS. A menos que intentes visitar CentOS.org, el proyecto CentOS no tiene nada que ver con este sitio web, su contenido o la falta del mismo.</p>
+        <p>Por ejemplo, si este sitio web es www.example.com, deberías encontrar al dueño del dominio example.com en el servidor WHOIS siguiente: <a href="http://www.internic.net/whois.html">http://www.internic.net/whois.html</a></p>
+        </div>
+        <div class="col-md-6">
+          <h2>¿Eres el Administrador?</h2>
+          <p>Deberías adicionar el contenido de tu sitio web al directorio <code>/var/www/html/</code>.</p>
+          <p>Para evitar que esta página se vuelva a mostrar, sigue las instrucciones del fichero <code>/etc/httpd/conf.d/welcome.conf</code>.</p>
+          <h2>Promocionando Apache y CentOS</h2>
+          <p>Eres libre de utilizar las imágenes siguientes en servidores HTTP que funcionan con Apache y CentOS Linux. ¡Gracias por usar Apache y CentOS!</p>
+          <p>
+            <a href="http://httpd.apache.org/">
+              <img src="noindex/common/images/pb-apache.png" alt="[ Powered by Apache ]"/>
+            </a>
+            <a href="http://www.centos.org/">
+              <img src="noindex/common/images/pb-centos.png" alt="[ Powered by CentOS Linux ]"/>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
+          <h2>El Proyecto CentOS</h2>
+          <p>CentOS Linux es una plataforma estable, predecible, administrable y reproducible derivada del código fuente de Red Hat Enterprise Linux (RHEL).</p>
+          <p>Además de ser una opción popular para el hospedaje de sitios web, CentOS provee una plataforma para las comunidades open source. Para más información, por favor visita el <a href="http://www.centos.org/">sitio web de CentOS</a>.</p>
+        </div>
+      </section>
+      <hr/>
+    </main>
+    <footer class="container">
+      <p>© 2019 The CentOS Project | <a href="https://www.centos.org/legal/">Legal</a> | <a href="https://www.centos.org/legal/privacy/">Privacidad</a></p>
+    </footer>
+  </body>
+</html>

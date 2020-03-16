@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>CentOS 提供的 Apache HTTP 伺服器測試頁</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="shortcut icon" href="http://www.centos.org/favicon.ico"/>
+    <link rel="stylesheet" media="all" href="noindex/common/css/bootstrap.min.css"/>
+    <link rel="stylesheet" media="all" href="noindex/common/css/styles.css"/>
+  </head>
+  <body>
+    <header class="container">
+      <section class="row">
+        <div class="header-graphic v3-banner platform-banner centos-banner" role="banner">
+          <div class="graphic-inner">
+            <div class="graphic-inner2">
+              <div class="banner-title"><span>Apache HTTP 伺服器</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container">
+      <h1>測試頁</h1>
+      <p class="lead">本頁面是在 <a href="http://apache.org">Apache HTTP 伺服器</a> 完成安裝後用來測試它的正常運作。如果你能閱讀此頁面，此網站已能正常運作。此伺服器是由 <a href="http://centos.org">CentOS</a> 所驅動。</p>
+      <hr/>
+      <section class="row">
+        <div class="col-md-6">
+          <h2>只是來訪？</h2>
+			  	<p class="lead">你剛拜訪的網站正遇到問題，或在進行例行維護。</p>
+          <p>要是你想通知網站的管理員你看到此頁，而不是你預期的頁面，你應該發電郵給他們。一般來說，發電郵給網域的 webmaster 用戶便能聯絡到相關人仕。</p>
+          <p>舉例說，要是你在拜訪 www.example.com 時碰到問題，你應該發電郵給 webmaster@example.com 。</p>
+        <h2>重要通告：</h2>
+        <p class="lead">CentOS 計劃與此網站及其中的內容沒有任何關係，它只提供運作此網站的軟件。</p>
+        <p>假若你對此網站的內容有意見，請聯絡此網域的擁有人，而不是 CentOS 計劃。除非你有意拜訪 CentOS.org，否則 CentOS 計劃與此網站，及其中的內容沒有任何關係。</p>
+        <p>舉例說，如果此網站是 www.example.com，可以在下列 WHOIS 伺服器找出 example.com 網域的擁有人：<a href="http://www.internic.net/whois.html">http://www.internic.net/whois.html</a></p>
+        </div>
+        <div class="col-md-6">
+          <h2>你是管理員嗎？</h2>
+          <p>請將你的網站內容放進 <code>/var/www/html/</code> 這個目錄。</p>
+          <p>如要防止此頁面的出現，請遵從 <code>/etc/httpd/conf.d/welcome.conf</code> 檔內的指示。</p>
+          <h2>推廣 Apache 及 CentOS</h2>
+          <p>你可在 Apache 及 CentOS Linux 驅動的 HTTP 伺服器上隨意採用下列圖像。多謝採用 Apache 及 CentOS！</p>
+          <p>
+            <a href="http://httpd.apache.org/">
+              <img src="noindex/common/images/pb-apache.png" alt="[ Powered by Apache ]"/>
+            </a>
+            <a href="http://www.centos.org/">
+              <img src="noindex/common/images/pb-centos.png" alt="[ Powered by CentOS Linux ]"/>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
+          <h2>CentOS 計劃</h2>
+          <p>CentOS Linux 發行版本是一個穩定、高預測性、高管理性、高重複性的平台，它源於 Red Hat 企業級 Linux（RHEL）的源代碼。</p>
+          <p>除了是寄存網站的熱門選擇外，CentOS 亦為開源社群提供一個可延伸的豐富平台。請拜訪 <a href="http://www.centos.org/">CentOS 網站</a> 獲取更多資訊。</p>
+        </div>
+      </section>
+      <hr/>
+    </main>
+    <footer class="container">
+      <p>© 2019 CentOS 計劃 | <a href="https://www.centos.org/legal/">法律條文</a> | <a href="https://www.centos.org/legal/privacy/">私隱</a></p>
+    </footer>
+  </body>
+</html>
